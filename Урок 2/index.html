@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        console.log('Задание 1 (ответы в комментариях)');
+        /*var a = 1,
+            b = 1,
+            c, d;
+        c = ++a, alert(c);          // 2   сначала 1 + a [a = 1], потом вывел c                        [a = 2, c = 2]
+        d = b++, alert(d);          // 1   сначала вывел c = b [b = 1], потом прибавил b + 1           [b = 2, d = 1]
+        c = (2 + ++a), alert(c);    // 5   сначала  1 + a [a = 2], потом  2 + a [a = 3] , вывел с      [a = 3, c = 5]
+        d = (2 + b++), alert(d);    // 4   сначала вывел d = 2 + b [b = 2], потом b + 1                [b = 3, d = 4]
+        alert(a);                   // 3   [a = 3]
+        alert(b);                   //[b = 3]*/
+
+        console.log('Задание 2 (в комментарии)');
+        // x = 5;
+
+        console.log('Задание 3');
+        let a = -2,
+            b = -15;
+        if (a >= 0 && b >= 0) {
+            console.log(a - b);
+        } else if (a < 0 && b < 0) {
+            console.log(a * b);
+        } else {
+            console.log(a + b);
+        }
+
+        console.log('Задание 4');
+        let x = Math.floor(0 + Math.random() * (15 + 1));
+        switch (x) {
+            case 0:
+                console.log(x);
+                x++;
+            case 1:
+                console.log(x);
+                x++;
+            case 2:
+                console.log(x);
+                x++;
+            case 3:
+                console.log(x);
+                x++;
+            case 4:
+                console.log(x);
+                x++;
+            case 5:
+                console.log(x);
+                x++;
+            case 6:
+                console.log(x);
+                x++;
+            case 7:
+                console.log(x);
+                x++;
+            case 8:
+                console.log(x);
+                x++;
+            case 9:
+                console.log(x);
+                x++;
+            case 10:
+                console.log(x);
+                x++;
+            case 11:
+                console.log(x);
+                x++;
+            case 12:
+                console.log(x);
+                x++;
+            case 13:
+                console.log(x);
+                x++;
+            case 14:
+                console.log(x);
+                x++;
+            case 15:
+                console.log(x);
+        }
+
+        console.log('Задание 5');
+
+        function sum(par1, par2) {
+            return par1 + par2;
+        }
+
+        function diff(par1, par2) {
+            return par1 - par2;
+        }
+
+        function multiply(par1, par2) {
+            return par1 * par2;
+        }
+
+        function div(par1, par2) {
+            return par1 / par2;
+        }
+
+        console.log('Задание 6');
+
+        function mathOperation(arg1, arg2, operation) {
+            switch (operation) {
+                case sum:
+                    return sum(arg1, arg2);
+                    break;
+                case diff:
+                    return diff(arg1, arg2);
+                    break;
+                case multiply:
+                    return multiply(arg1, arg2);
+                    break;
+                case div:
+                    return div(arg1, arg2);
+                    break;
+            }
+        }
+        console.log(mathOperation(5, 4, sum));
+
+        console.log('Задание 7');
+        console.log(null != 0); // т.к. 0 - это значение, а null - это отсутсвие значения.
+    </script>
+</body>
+
+</html>
