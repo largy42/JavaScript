@@ -10,7 +10,29 @@
 
 <body>
 
-    s
+    <script>
+        console.log('Задание 1');
+        let arr = []
+        i = 0
+        limit = 100
+        while (i <= limit) {
+            if (test(i)) {
+                arr.push(i)
+            }
+            i++
+        }
+
+        function test(num) {
+            let cheker = 2
+            while (cheker < num) {
+                if (num % cheker === 0) {
+                    return false
+                }
+                cheker++
+            }
+            return true
+        }
+    </script>
 </body>
 
-</html>c
+</html>
